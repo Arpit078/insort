@@ -30,6 +30,7 @@
     text-decoration: none;
     height: max-content;
     padding: 0.5rem;
+    position:absolute;
     
 }
 .btn-change7:hover{

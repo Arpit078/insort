@@ -1,0 +1,14 @@
+.flex-box{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 50% 50%;
+    grid-column-gap: 10px;
+    grid-template-areas: 
+    "upper-sidebar" "image-bar" "half1" "half1" 
+    "upper-sidebar" "image-bar" "half1" "half1" 
+    "upper-sidebar" "image-bar" "half2" "half2"
+    "lower-sidebar" "image-bar" "half2" "half2"
+}
+.two{
+    grid-row-start: span 2;
+}
