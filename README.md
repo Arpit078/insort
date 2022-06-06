@@ -11,8 +11,5 @@
     4. cd insort
     5. npm start 
 # Screen Record
-<figure class="video_container">
-  <video controls="true" allowfullscreen="true" poster="path/to/poster_image.png">
-    <source src="src/components/insort_vid.webm" type="video/webm">
-  </video>
-</figure>
+https://user-images.githubusercontent.com/92263716/172178165-7c2ba02e-7af1-4f7b-ac6b-ff3020e385f1.mp4
+
