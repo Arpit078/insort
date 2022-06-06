@@ -52,15 +52,15 @@ export class News extends Component {
               
                
               </div> }
-            else{
-              return <div key={element.url} className={element.author}>
-                <NewsItem title={element.title}
-                description={element.description}
-                newsUrl={element.url}/>
-                
-                </div>
-
-            }
+              else{
+                return <div key={element.url} className={element.author}>
+                  <NewsItem title={element.title}
+                  description={element.description}
+                  newsUrl={element.url}/>
+                  
+                  </div>
+  
+              }
              
            
           })}
