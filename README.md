@@ -11,4 +11,4 @@
     4. cd insort
     5. npm start 
 # Screen Record
-[screenrecord](src%5Ccomponents%5Cinsort_vid.webm)
+[screenrecord](src/components/insort_vid.webm)
