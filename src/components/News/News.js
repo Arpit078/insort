@@ -36,17 +36,33 @@ export class News extends Component {
       
         {this.state.loading && <Spinner/>}
           {!this.state.loading && this.state.articles.map((element)=>{
-             return <div key={element.url} className={element.author}>
-             {/* return <div key={element.link}> */}
-             <NewsItem
-               title={element.title}
-               description={element.description}
-              //  imageUrl={element.urlToImage}
-              //  imageUrl={element.image_url}
-               newsUrl={element.url}
-              //  newsUrl={element.link}
-      />
-           </div>
+            var img = element.urlToImage
+            if(element.author === "two"||element.author === "three"||element.author === "six"){
+            return <div key={element.url} className={element.author}>
+            {/* return <div key={element.link}> */}
+              <NewsItem
+                title={element.title}
+                description={element.description}
+                imageUrl={element.urlToImage}
+              
+               //  imageUrl={element.image_url}
+                newsUrl={element.url}
+               //  newsUrl={element.link}
+       />
+              
+               
+              </div> }
+            else{
+              return <div key={element.url} className={element.author}>
+                <NewsItem title={element.title}
+                description={element.description}
+                newsUrl={element.url}/>
+                
+                </div>
+
+            }
+             
+           
           })}
          
       </div>

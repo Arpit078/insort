@@ -14,8 +14,9 @@ export class NewsItem extends Component {
     return (
       <div className="box">
         <div className="">
+        <img src={!imageUrl?null:imageUrl} className="card-img-top" style={{width:"fit",alignItems:"center",filter:"contrast(160%) grayscale(100%) "}}></img>
+
           <h5 className="">{title}</h5>
-          {/* <img src={!imageUrl?"https://www.freeiconspng.com/uploads/no-image-icon-6.png":imageUrl} className="card-img-top" alt="..." style={{height:"50vh",width:"45vw",alignItems:"center",paddingLeft:"4rem",filter:"grayscale(100%)"}}></img> */}
           <p className="">
             {description}
           </p>
