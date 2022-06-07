@@ -9,7 +9,9 @@
     2. winget/apt install npm
     3. git clone https://github.com/Arpit078/insort.git
     4. cd insort
-    5. npm start 
+    5. npm install
+    6. npm start 
+    wait....
 # Screen Record
 https://user-images.githubusercontent.com/92263716/172178165-7c2ba02e-7af1-4f7b-ac6b-ff3020e385f1.mp4
 
