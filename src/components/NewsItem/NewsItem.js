@@ -1,12 +1,5 @@
 import React, { Component } from "react";
 import "./NewsItem.css"
-import hoverButton from "../hoverButton/hoverButton"
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
 
 export class NewsItem extends Component {
   render() {
