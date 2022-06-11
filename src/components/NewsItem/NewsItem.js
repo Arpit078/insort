@@ -18,7 +18,7 @@ export class NewsItem extends Component {
 
           <h5 className="">{title}</h5>
           <p className="">
-            {description}
+            {!description?null:description}
           </p>
              
           <a href={newsUrl} target="_blank" className="btn-change7 btn btn-sm">Read More

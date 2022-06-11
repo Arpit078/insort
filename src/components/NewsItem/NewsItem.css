@@ -31,6 +31,7 @@
     height: max-content;
     padding: 0.5rem;
     
+    
 }
 .btn-change7:hover{
     box-shadow:100px 0 0 #31708f00 inset;
@@ -40,5 +41,14 @@ text-decoration: none;
 color: rgb(18, 1, 1);
 
 
+
+}
+@media screen and (max-width:1175px) {
+    .btn-change7{
+        margin-bottom: 2rem;
+    }
+    body{
+        margin-bottom:2rem;
+    }
 
 }

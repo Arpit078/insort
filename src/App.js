@@ -17,11 +17,11 @@ export default class App extends Component {
           <Switch>
             {/* <Route exact path="/"><News key="1" category="general"/></Route>
             <Route exact path="/general"><News key="2" category="general"/></Route> */}
-            <Route exact path="/"><News apiKey={this.apiKey} key="1" category="general"/></Route>
-            <Route exact path="/general"><News apiKey={this.apiKey} key="2" category="general"/></Route>
-            <Route exact path="/business"><News apiKey={this.apiKey} key="3" category="business"/></Route>
-            <Route exact path="/technology"><News apiKey={this.apiKey} key="4" category="technology"/></Route>
-            <Route exact path="/science"><News apiKey={this.apiKey} key="5" category="science"/></Route>
+            <Route exact path="/"><News apiKey={this.apiKey} key="2" category="Headlines"/></Route>
+            <Route exact path="/Top-7-headlines"><News apiKey={this.apiKey} key="2" category="Headlines"/></Route>
+            <Route exact path="/Business-news"><News apiKey={this.apiKey} key="3" category="Business-News"/></Route>
+            <Route exact path="/startup-news-india"><News apiKey={this.apiKey} key="4" category="Startup-News"/></Route>
+            <Route exact path="/Book-Suggestions-Daily"><News apiKey={this.apiKey} key="5" category="Book-Suggestions-Daily"/></Route>
 
           
           

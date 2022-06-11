@@ -11,10 +11,10 @@ export default class Navbar extends Component {
   render() {
     return (
         <nav>
-        <Link  to="/general"><AiTwotoneHome/></Link>
-        <Link  to="/technology"><BiCodeBlock/></Link>
-        <Link  to="/business"><SiGooglemybusiness/></Link>
-        <Link  to="/science"><GiMaterialsScience/></Link>
+        <Link  to="/Top-7-headlines"><AiTwotoneHome/></Link>
+        <Link  to="/startup-news-india"><BiCodeBlock/></Link>
+        <Link  to="/Business-news"><SiGooglemybusiness/></Link>
+        <Link  to="/Book-Suggestions-Daily"><GiMaterialsScience/></Link>
       </nav>
     )
   }

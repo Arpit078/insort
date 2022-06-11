@@ -1,10 +1,10 @@
 # React News App based on News API
-# non deployable due to api limit
+# created my own api and deployed on
 ## Requirements :
 1. nodejs
 2. npm 
 
-## though installation(from cli) :
+## installation(from cli) :
     1. winget/apt install node { on windows the winget package manager has and older version of node so most prob react wont work so install from the official msi installer.}
     2. winget/apt install npm
     3. git clone https://github.com/Arpit078/insort.git
