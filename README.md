@@ -1,5 +1,6 @@
-# React News App based on my own api made by web-scraping and deployed on
+# React News App based on my own API made by web-scraping and deployed on
 # https://insort.netlify.app
+# Link to the API : https://github.com/Arpit078/insort-api
 
 
 ## Requirements :
