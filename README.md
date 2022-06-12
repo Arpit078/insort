@@ -1,6 +1,5 @@
-# React News App based on News API
-# created my own api and deployed on
-# DEPLOYED ON : https://insort.netlify.app
+# React News App based on my own api made by web-scraping and deployed on
+# https://insort.netlify.app
 
 
 ## Requirements :
@@ -17,7 +16,6 @@
 # Screen Record
 ### Desktop
 https://user-images.githubusercontent.com/92263716/172178165-7c2ba02e-7af1-4f7b-ac6b-ff3020e385f1.mp4
-
 ### Android
 https://user-images.githubusercontent.com/92263716/173227981-dc0c5102-d5f2-4be9-8830-c2db2bfdca8f.mp4
 
