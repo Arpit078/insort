@@ -1,7 +1,12 @@
 
 
 @media screen and (max-width:1175px) {
-   
+   .flex-box{
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+   }
+   .scroll{scroll-snap-align: start end;
+    scroll-padding-top: 1.5rem;}
     
 
 }
@@ -31,8 +36,10 @@ p {
         padding-bottom: 5rem;
     
         height: max-content;
+        
     
     }
+    
     .two {
         grid-row-start: span 2;
       

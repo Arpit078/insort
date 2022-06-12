@@ -40,7 +40,7 @@ export class News extends Component {
       <div className="flex-box my-3">
         {this.state.loading && <Spinner className="text-center"/>}
           {!this.state.loading && this.state.articles.map((element)=>{
-            return <div key={element.url} className={element.count}>
+            return <section key={element.url} className={element.count + " scroll"} >
             {/* return <div key={element.link}> */}
               <NewsItem
                 title={element.title}
@@ -53,7 +53,7 @@ export class News extends Component {
        />
               
                
-              </div> 
+              </section> 
             
              
            
