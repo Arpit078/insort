@@ -1,5 +1,8 @@
 # React News App based on News API
 # created my own api and deployed on
+# DEPLOYED ON : https://insort.netlify.app
+
+
 ## Requirements :
 1. nodejs
 2. npm 
@@ -9,7 +12,8 @@
     2. winget/apt install npm
     3. git clone https://github.com/Arpit078/insort.git
     4. cd insort
-    5. npm start 
+    5. npm install
+    6. npm start 
 # Screen Record
 <figure class="video_container">
   <video controls="true" allowfullscreen="true" poster="path/to/poster_image.png">
