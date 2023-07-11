@@ -14,7 +14,7 @@ export class News extends Component {
     // let url = `https://newsapi.org/v2/top-headlines?country=in&category=${this.props.category}&apiKey=b0e8907b27b44df4aa19103a6c0e4aac&pageSize=7`
     // let url = `https://newsapi.org/v2/top-headlines?country=in&apiKey=b0e8907b27b44df4aa19103a6c0e4aac&pageSize=7`
     // let url = `http://localhost:5000/${this.props.category}`
-    let url = `https://insort-api.herokuapp.com/${this.props.category}`
+    let url = `https://insort-api.onrender.com/${this.props.category}`
     
     // let url = `https://newsdata.io/api/1/news?apikey=${this.props.apiKey}&country=in&category=${this.props.category}`
     this.setState({loading:true})
